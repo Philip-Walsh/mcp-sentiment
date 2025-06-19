@@ -1,7 +1,7 @@
 title: Sentiment Analysis MCP
 emoji: 🦝
-colorFrom: white
-colorTo: black
+colorFrom: indigo
+colorTo: yellow
 sdk: gradio
 sdk_version: "5.34.2"
 app_file: app.py
