@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mcp-sentiment"
+version = "0.1.0"
+description = "Gradio MCP Server"
+authors = ["Philip Walsh"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+gradio = {extras = ["mcp"], version = "^5.34.2"}
+textblob = "^0.19.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
